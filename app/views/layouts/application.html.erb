@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Not Amaysim</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav>
+      <%= link_to 'Home', root_path %>
+      <%= link_to 'Plans', plans_mobile_plans_path %>
+      <%= link_to 'Help', help_mobile_path %>
+    </nav>
+
+    <%= render 'layouts/nav' %>
+
+
+      <%= yield %>
+
+  </body>
+</html>

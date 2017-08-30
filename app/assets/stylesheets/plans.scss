@@ -1,0 +1,53 @@
+// Place all the styles related to the Plans controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container-fluid {
+  background-color: #510063;
+  height: 700px;
+}
+
+.mlist {
+  text-align: left;
+}
+
+.mlist li {
+  display: inline-block;
+}
+
+.promo {
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 0 5px;
+  background-color: #C11586;
+}
+
+.plans-deck .card {
+  background-color: white;
+  color: #510063;
+  text-align: center;
+  margin-top: -100px;
+  font-family: "MarkOT",sans-serif;
+
+}
+
+.plans-deck .card-title {
+  color: #FF5500;
+  font-weight: bold;
+}
+
+.btnplans {
+  color: white;
+  font-weight: bold;
+  font-size: 20;
+}
+
+.plans-data {
+  background-color: #EDDBF5;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto -20px;
+  padding: 10px;
+}

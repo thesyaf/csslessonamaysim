@@ -1,0 +1,169 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import 'bootstrap';
+
+.bg-orange {
+  background-color: #FF5500;
+}
+
+.topnav {
+  color: #FF5500;
+}
+
+.navbar-brand {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.nav-item:hover {
+  background-color: #4A0057;
+  height: inherit;
+}
+
+.dropdown-menu {
+  background-color: #4A0057;
+}
+
+.dropdown-menu:hover {
+  background-color: #571263;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.first-jumbo {
+  background-color: #510063;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 520px;
+  border-radius: 0;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .first-jumbo {
+    background-color: #510063;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 320px;
+    border-radius: 0;
+  }
+}
+
+
+.bannerimage {
+  max-width: 192px;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .bannerimage {
+    max-width: 320px;
+    position: relative;
+    float: right;
+  }
+}
+
+.first-jumbo h1 {
+  font-size: 2.8rem;
+  line-height: 2.6666rem;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .first-jumbo h1 {
+    text-align: left;
+  }
+}
+
+.btn {
+    background-color: #FF5500;
+    border-radius: 50px;
+    border: none;
+    width: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.mid-headline {
+  font-size: 18px;
+  font-weight: 900;
+  color: #510063;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.cardimages {
+  max-width: 100%;
+}
+
+
+
+.mid-content {
+  color: #510063;
+  font-weight: lighter;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.card {
+  background-color: #FF5500;
+  color: white;
+  border-radius: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  border: none;
+}
+
+@media (min-width: 576px) {
+  .card {
+  background-color: #FF5500;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  }
+}
+
+.first-card {
+  background-color: #FF5500;
+}
+
+.second-card {
+  background-color: #FF6600;
+}
+
+.third-card {
+  background-color: #FF7700;
+}
+
+.col-sm-4 {
+  margin: 20px 0 40px;
+}
+
+.second-jumbo {
+  margin: 30px 0;
+  background-color: #4A0057;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 0;
+}
